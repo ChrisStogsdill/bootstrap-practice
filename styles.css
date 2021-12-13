@@ -1,2 +1,16 @@
 
  .nav-item:hover .dropdown-menu{ display: block; }
+
+ .dropdown-menu::before {
+    border-bottom: 15px solid #ffffff;
+    display: block;
+    width: 15px;
+    height: 15px;
+    box-sizing: border-box;
+    left: 15px;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    content: '';
+    position: absolute;
+    top: -15px;
+}
