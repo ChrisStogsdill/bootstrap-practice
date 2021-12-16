@@ -1,6 +1,12 @@
 
- .nav-item:hover .dropdown-menu{ display: block; }
+* {
+    /* border: 1px solid; */
+}
+ 
+ @media (min-width: 768px) {
+    .nav-item:hover .dropdown-menu{ display: block; } 
 
+    /*style to get the triangle in the dropdown menu  */
  .dropdown-menu::before {
     border-bottom: 15px solid #ffffff;
     display: block;
@@ -13,4 +19,11 @@
     content: '';
     position: absolute;
     top: -10px;
-}
+    } 
+
+ }
+
+ .testing {
+    box-sizing: content-box; 
+     margin: -0.5rem 0;
+ }
