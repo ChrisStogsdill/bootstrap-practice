@@ -1,6 +1,6 @@
 
 * {
-    /* border: 1px solid; */
+     /* border: 1px solid; */
 }
  
  @media (min-width: 768px) {
@@ -23,7 +23,17 @@
 
  }
 
- .testing {
-    box-sizing: content-box; 
-     margin: -0.5rem 0;
- }
+.search-section-outside-container {
+   height: 500px;
+   background-image: url(/images/background-image.png);
+   background-size: 100% 100%;
+}
+
+
+.opacity-75 {
+  opacity: 75%;
+}
+
+.flex-grow-2 {
+   flex-grow: ;
+}
