@@ -1,7 +1,7 @@
 
 
  @media (min-width: 768px) {
-    .nav-item:hover .dropdown-menu{ display: block; } 
+    .nav-item:hover .dropdown-menu{ display: block; }  
 
     /*style to get the triangle in the dropdown menu  */
  .dropdown-menu::before {
@@ -49,3 +49,16 @@
    background-color: #60231e;
 }
 
+
+.card-dropdown-list {
+   max-height: 500px;
+   overflow-y: auto;
+   overflow-x: hidden;
+  
+   
+}
+
+.footer {
+   height: 75px;
+   background-color: #ebeaea;
+}
