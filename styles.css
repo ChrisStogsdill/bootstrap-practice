@@ -1,8 +1,5 @@
 
-* {
-     /* border: 1px solid; */
-}
- 
+
  @media (min-width: 768px) {
     .nav-item:hover .dropdown-menu{ display: block; } 
 
@@ -34,6 +31,21 @@
   opacity: 75%;
 }
 
-.flex-grow-2 {
-   flex-grow: ;
+
+
+.search-dropdown {
+   max-width: 150px;
 }
+
+.card-title {
+   color: #9c372f;
+}
+
+.card-text {
+   color: #1c567b;
+}
+
+.dark-red-background {
+   background-color: #60231e;
+}
+
