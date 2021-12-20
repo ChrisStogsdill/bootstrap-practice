@@ -1,5 +1,7 @@
 
-
+body {
+   font-family: "Poppins", sans-serif ;
+}
  @media (min-width: 768px) {
     .nav-item:hover .dropdown-menu{ display: block; }  
 
@@ -50,7 +52,8 @@
 }
 
 
-.card-dropdown-list {
+#card-dropdown-list {
+   min-height: 100px;
    max-height: 500px;
    overflow-y: auto;
    overflow-x: hidden;
@@ -61,4 +64,8 @@
 .footer {
    height: 75px;
    background-color: #ebeaea;
+}
+
+.card-img-top {
+   max-height: 150px;
 }

@@ -13,6 +13,9 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
 
+  <!-- import google font  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
 
   <title>bootstrap-practice</title>
 </head>
@@ -21,7 +24,7 @@
   <!-- navbar -->
   <nav class="navbar navbar-expand-md navbar-dark bg-dark p-0">
 
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/index.html">
       <img src="/images/lotusIcon50x50.jpg" alt="lotus icon">
       Chris' Test
     </a>
@@ -37,35 +40,41 @@
       <li class="dropdown nav-item py-3 ">
         <a class="nav-link dropdown" data-bs-toggle="dropdown" href="#">Free Stock Photos <i class="fas fa-angle-down"></i></a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">item 1</a>
-          <a class="dropdown-item" href="#">item 2</a>
+          <a class="dropdown-item" href="#">Newest photos</a>
+          <a class="dropdown-item" href="#">Popular photos</a>
         </div>
       </li>
 
       <li class="dropdown nav-item py-3">
         <a class="nav-link dropdown" data-bs-toggle="dropdown" href="#">Contribute <i class="fas fa-angle-down"></i></a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">item 1</a>
+          <a class="dropdown-item" href="#">Submission guidelines</a>
+          <a class="dropdown-item" href="#">Photographer signup</a>
+          <a class="dropdown-item" href="#">Photographer login</a>
         </div>
       </li>
 
       <li class="dropdown nav-item py-3">
         <a class="nav-link dropdown" data-bs-toggle="dropdown" href="#">About <i class="fas fa-angle-down"></i></a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">item 1</a>
+          <a class="dropdown-item" href="#">About Freerange</a>
+          <a class="dropdown-item" href="#">Image license</a>
+          <a class="dropdown-item" href="#">API</a>
+          <a class="dropdown-item" href="#">Contact us</a>
         </div>
       </li>
       <li class="dropdown nav-item py-3">
         <a class="nav-link dropdown" data-bs-toggle="dropdown" href="#">Support <i class="fas fa-angle-down"></i></a>
         <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">item 1</a>
+          <a class="dropdown-item" href="#">Contact support</a>
+          <a class="dropdown-item" href="#">FAQ</a>
         </div>
       </li>
       
       
 
       <li class="nav-item  dark-red-background  py-3   ">
-        <a class="nav-link border-end " href="#"><i class="fas fa-pencil-alt"></i> Register</a>
+        <a class="nav-link border-end " target="_blank" href="\register.html"><i class="fas fa-pencil-alt"></i> Register</a>
       </li>
       <li class="nav-item  dark-red-background   py-3">
         <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
@@ -143,55 +152,55 @@
       <h5 class="card-title text-center fw-bold">Browse by category</h5>
       <p class="card-text text-center fs-5 "> 
         <div class="dropdown d-flex justify-content-center">
-          <button  class="dropdown btn border card-dropdown-button" onclick="menuHeightSet()" data-bs-toggle="dropdown">
-            Dropdown button <i class="fas fa-angle-down"></i>
+          <button  class="dropdown btn border" data-display="static" id="card-dropdown-button" onclick="menuHeightSet()" data-bs-toggle="dropdown">
+            Select Category <i class="fas fa-angle-down"></i>
           </button>
-          <ul class="dropdown-menu card-dropdown-list">
-            <li><a class="dropdown-item" href="#">This is some test text</a></li>
+          <ul class="dropdown-menu" id="card-dropdown-list">
+            <li><a class="dropdown-item" href="#">Select Category</a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Editorial and News </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Animals & Insects </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Architecture </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Architectural Details </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Arts & Music </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Backgrounds & Textures </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Business & Office </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Cities and Modern Life </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Illustrations </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Interiors </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Flowers and Plants </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">France </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Food & Drink </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Health and Fitness </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Holidays & Occasions </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Industry & Agriculture </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Landscapes & Nature </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Letters and Numbers </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Objects </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Other </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Military </a></li>
             <hr class="dropdown-divider">
-            <li><a class="dropdown-item" href="#">Link</a></li>            
+            <li><a class="dropdown-item" href="#">People </a></li>            
           </ul>
         </div>
       </p>
@@ -226,11 +235,16 @@ function searchDropdownChange() {
     case "Illustrations":
     document.getElementById("search-dropdown").style.backgroundImage = "url(/images/feather-alt-solid.svg)";
     break;
-  } 
-
- 
+  }  
 }
 
+// function to set the max-height of the card-dropdown-list to be the size that is left of the page.
+function menuHeightSet() {
+  let screenDist = window.innerHeight - document.getElementById("card-dropdown-button").getBoundingClientRect().bottom - 5;
+  let dropdownHight = screenDist + "px";
+  document.getElementById("card-dropdown-list").style.maxHeight = dropdownHight;
+  
+} 
 </script>
 
 
