@@ -1,5 +1,9 @@
 # bootstrap-practice
 
+Final Site hosted here - 
+https://chris-bootstrap-practice.netlify.app/
+
+
 This project will be my first time using bootstrap. in order to replicate the first page screenshot of https://freerangestock.com/
 I will be using as much bootstrap as I can in the project
 
