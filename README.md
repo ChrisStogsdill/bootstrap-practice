@@ -1,6 +1,6 @@
 # bootstrap-practice
 
-This project will be my first time using bootstrap.
+This project will be my first time using bootstrap. in order to replicate the first page screenshot of https://freerangestock.com/
 I will be using as much bootstrap as I can in the project
 
 I spent entirely too long trying to figure out how to get the triangle in the dropdown menus of the navbar through bootstrap. 
@@ -11,10 +11,9 @@ I found the importance of importing the correct version of font awesome.
 
 I found that Firefox's developer's tools are better for tracking down where seemingly random padding and margins are coming from. 
 
-I was able to figure out how to change the dropdown picture in teh search's dropdown select menu. 
-I found that adding pictures to the text itself does not work, as <select> will take them out.
+I was able to figure out how to change the dropdown picture in the search's dropdown select menu. 
+I found that adding pictures to the text itself does not work, as select tags will take them out.
 
 I made a script that will set the size of the "Brows by category" dropdown max height based on the space it has left on the viewport.
 Unfortunately, you cant see it working too well here since my test page ends shortly after the cards. But if it was longer it would be glorious.
-
 
